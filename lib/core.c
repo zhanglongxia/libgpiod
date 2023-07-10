@@ -21,6 +21,7 @@
 #include <sys/sysmacros.h>
 #include <sys/types.h>
 #include <unistd.h>
+#include <libgen.h>
 
 enum {
 	LINE_FREE = 0,
